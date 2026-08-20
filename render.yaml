@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: nexus-chat
+    runtime: node
+    plan: starter
+    region: oregon
+    buildCommand: npm run render:build
+    startCommand: npm run render:start
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        value: file:/opt/render/project/src/storage/nexus.db
+      - key: NEXUS_UPLOAD_DIR
+        value: /opt/render/project/src/storage/uploads
+      - key: NEXUS_TURN_URL
+        sync: false
+      - key: NEXUS_TURN_USERNAME
+        sync: false
+      - key: NEXUS_TURN_CREDENTIAL
+        sync: false
+    disk:
+      name: nexus-data
+      mountPath: /opt/render/project/src/storage
+      sizeGB: 1

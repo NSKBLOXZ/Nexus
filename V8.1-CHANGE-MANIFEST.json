@@ -1,0 +1,19 @@
+{
+  "source": "Nexus v8.0 CLEAN",
+  "version": "8.1.0",
+  "visual_only": true,
+  "protected_files_identical": [
+    "public/app.js",
+    "prisma/schema.prisma",
+    "server/routes/dms.js",
+    "server/routes/private-groups.js",
+    "server/routes/messages.js",
+    "server/routes/friends.js",
+    "server/routes/communities.js"
+  ],
+  "logo": {
+    "path": "public/assets/nexus-logo.png",
+    "bytes": 473819,
+    "sha256": "60f2f45d5205871f628acdab02223357af65a33ca411534a07c74d40a0a4307c"
+  }
+}

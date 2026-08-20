@@ -1,0 +1,31 @@
+{
+  "version": "8.2.0",
+  "base": "Nexus v8.1 BRANDING UI",
+  "visual_only": true,
+  "icons": {
+    "friends-icon.png": {
+      "bytes": 686713,
+      "sha256": "ccb16c0c5898dc8af3a03061b4b94122b751b691cc91db274274d39e4d708335"
+    },
+    "profile-icon.png": {
+      "bytes": 1107771,
+      "sha256": "bb478dd4dadc17733746ac09922c4d882fb58d449cc0f0211887041f5bf531ea"
+    },
+    "overview-icon.png": {
+      "bytes": 683916,
+      "sha256": "89916f53b7b33c17ac5ca202c8403d4bbcf0548b4bc227ad5550589fd9d3d9e5"
+    },
+    "create-group-icon.png": {
+      "bytes": 596118,
+      "sha256": "43db8b0b34ebbed73652a9d1b725432ebbfc29f92cf68be6ac20ab7c1bf001e2"
+    },
+    "messages-icon.png": {
+      "bytes": 901818,
+      "sha256": "4d48c33e3fb0c5703afca9ae59e55177b04536bffcc1c8390f0d46e1107a98d2"
+    },
+    "join-server-icon.png": {
+      "bytes": 917575,
+      "sha256": "3dc7a864304acbbc452c35df25638a72a8b0fe8c0c65158f263e49f20cc55076"
+    }
+  }
+}

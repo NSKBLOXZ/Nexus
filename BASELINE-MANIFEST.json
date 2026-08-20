@@ -1,0 +1,50 @@
+{
+  "source": "Nexus v7.6 functional base",
+  "version": "8.0.0",
+  "files": {
+    "public/index.html": {
+      "bytes": 16281,
+      "sha256": "de641129affcf5683bad36d90e23cf7bc204761e1c2e07cf7d71403c998fed0e"
+    },
+    "public/styles.css": {
+      "bytes": 45449,
+      "sha256": "27791ed6b75b494f298a27063135a06810c5fb2d5bc5a74abe9596639752d002"
+    },
+    "public/app.js": {
+      "bytes": 78560,
+      "sha256": "9fe6c5a6ea0d0cff7e07b730a04cad6eeb82cb83f2801b6afc827862be7cc3f5"
+    },
+    "server/index.js": {
+      "bytes": 8785,
+      "sha256": "d54af9b1ef1bc18e51e21456ef58845f17835ba081dfe2ca9d8b73c17f9048fb"
+    },
+    "server/routes/auth.js": {
+      "bytes": 5454,
+      "sha256": "93c2b56ac6f0ce5ad0ac39b79c6332dfb30042ad8a962ef2f4a587c32185435c"
+    },
+    "server/routes/communities.js": {
+      "bytes": 11783,
+      "sha256": "1b63f2a0b1b45d74e702f7dd1ab1da4354ef81c11d9bc125b3785b0936f90d07"
+    },
+    "server/routes/messages.js": {
+      "bytes": 7763,
+      "sha256": "8d140c93580903500561116d74d02d0393fdb3411d803428b9326a70581b7877"
+    },
+    "server/routes/friends.js": {
+      "bytes": 5738,
+      "sha256": "41ce6ddfc3e16ad39c5b6c1b56eae4eb7276c3b4e55ee53f1d9adc3b4fe261a3"
+    },
+    "server/routes/dms.js": {
+      "bytes": 9529,
+      "sha256": "cfb90efc3d66e6740aed22ce6ed8afeba7012c5342d0a09b8b9edba7c7f08d75"
+    },
+    "server/routes/private-groups.js": {
+      "bytes": 9413,
+      "sha256": "a2ec61d742a30c7b0db95942877977925aa1c3562148e6405db74ddf192658c6"
+    },
+    "prisma/schema.prisma": {
+      "bytes": 11964,
+      "sha256": "60593d16b96e29eabaf72ee975eb9c7a8ccbd46c98f9737546f11813ee2ff026"
+    }
+  }
+}
